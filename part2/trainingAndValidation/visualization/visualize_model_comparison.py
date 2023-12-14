@@ -20,7 +20,7 @@ def main():
     df_models = load_model_results(results_file_path)
     print(df_models.head())
     # Call the visualization function
-    # visualize_model_comparison(df_models, 'error', 'model', 'Comparison of models')
+    visualize_model_comparison(df_models, 'error', 'model', 'Comparison of models')
 
 if __name__ == "__main__":
     main()
