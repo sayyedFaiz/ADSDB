@@ -21,6 +21,16 @@ def prepare_final_dataset(income_df, rent_df):
     df_analysis = pd.merge(
         income_df, rent_df, on=["year", "district", "neighbourhood"], how="left"
     )
+    neighborhood_avg_rent = df_analysis.groupby(['neighbourhood', 'year'])['avg_rent'].mean().reset_index()
+
+    # Fill NaN values in 'avg_rent' based on the average rent of the same neighborhood in different years
+    df_analysis['avg_rent'] = df_analysis.apply(
+        lambda row: neighborhood_avg_rent.loc[
+            (neighborhood_avg_rent['neighbourhood'] == row['neighbourhood']) &
+            (neighborhood_avg_rent['year'] != row['year'])
+        ]['avg_rent'].mean() if pd.isna(row['avg_rent']) else row['avg_rent'],
+    axis=1
+)
     return df_analysis.dropna(subset=["avg_rent"])
 
 def create_new_table_from_df(con, df, table_name):
