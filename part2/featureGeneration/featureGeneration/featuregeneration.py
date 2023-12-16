@@ -2,7 +2,7 @@ import duckdb
 import pandas as pd
 import sys
 
-sys.path.append("C:/Users/sayye/OneDrive/Desktop/college/PG/UPC/ADSDB/part2/")
+sys.path.append("../../")
 from db_utils import (
     connect_to_database,
     close_database_connection,
@@ -41,7 +41,7 @@ def save_data(df, file_name):
 
 
 def main():
-    con = connect_to_database("C:/Users/sayye/OneDrive/Desktop/college/PG/UPC/ADSDB/part2/analyticalSandbox/analytical_sandboxes.db")
+    con = connect_to_database("../../analyticalSandbox/analytical_sandboxes.db")
     df_analysis = fetch_data_from_table(con, "sandbox")
 
     df_analysis = calculate_income_rent_ratio(df_analysis)

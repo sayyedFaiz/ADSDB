@@ -1,7 +1,7 @@
 import duckdb
 import pandas as pd
 import sys
-sys.path.append('C:/Users/sayye/OneDrive/Desktop/college/PG/UPC/ADSDB/part2/')
+sys.path.append('../')
 from db_utils import connect_to_database, close_database_connection, fetch_data_from_table
 
 def merge_tables(df1, df2, left_on, right_on):

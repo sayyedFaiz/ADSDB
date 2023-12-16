@@ -1,5 +1,7 @@
 
 import pandas as pd
+import sys
+sys.path.append("./")
 
 def load_data(file_path):
     return pd.read_csv(file_path)
@@ -13,9 +15,9 @@ def save_data(df, file_path):
     df.to_csv(file_path, index=False)
 
 def main():
-    input_file_path = 'C:/Users/sayye/OneDrive/Desktop/college/PG/UPC/ADSDB/part2/featureGeneration/DataPreparation/df_data_preparation.csv'
-    features_file_path = 'C:/Users/sayye/OneDrive/Desktop/college/PG/UPC/ADSDB/part2/featureGeneration/dataLabelling/df_ml_Xset.csv'
-    labels_file_path = 'C:/Users/sayye/OneDrive/Desktop/college/PG/UPC/ADSDB/part2/featureGeneration/dataLabelling/df_ml_yset.csv'
+    input_file_path = '../DataPreparation/df_data_preparation.csv'
+    features_file_path = './df_ml_Xset.csv'
+    labels_file_path = './df_ml_yset.csv'
 
     df_analysis = load_data(input_file_path)
 

@@ -1,4 +1,6 @@
 import pandas as pd
+import sys
+sys.path.append("./")
 
 
 def load_data(file_path):
@@ -15,8 +17,8 @@ def save_data(df, file_path):
 
 def main():
     # Set your local file paths here
-    input_file_path = 'C:/Users/sayye/OneDrive/Desktop/college/PG/UPC/ADSDB/part2/featureGeneration/featureGeneration/df_feature_generation.csv'
-    output_file_path = 'C:/Users/sayye/OneDrive/Desktop/college/PG/UPC/ADSDB/part2/featureGeneration/dataPreparation/df_data_preparation.csv'
+    input_file_path = '../featureGeneration/df_feature_generation.csv'
+    output_file_path = './df_data_preparation.csv'
 
     df_analysis = load_data(input_file_path)
 

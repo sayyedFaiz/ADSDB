@@ -2,6 +2,8 @@
 import pandas as pd
 import pickle
 import matplotlib.pyplot as plt
+import sys
+sys.path.append("./")
 
 def load_model_results(results_file_path):
     with open(results_file_path, 'rb') as file:
@@ -16,7 +18,7 @@ def visualize_model_comparison(df, error_column, model_column, plot_title):
     plt.show()
 
 def main():
-    results_file_path = 'C:/Users/sayye/OneDrive/Desktop/college/PG/UPC/ADSDB/part2/trainingAndValidation/trainingAndTesting/model_storing2.pkl'
+    results_file_path = '../trainingAndTesting/model_storing2.pkl'
 
     df_models = load_model_results(results_file_path)
 
