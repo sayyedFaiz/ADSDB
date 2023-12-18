@@ -1,8 +1,8 @@
 import duckdb
 import pandas as pd
 import sys
-sys.path.append('../')
-from db_utils import connect_to_database, close_database_connection, fetch_data_from_table
+sys.path.append('./')
+from db_utils import (connect_to_database, close_database_connection, fetch_data_from_table)
 
 def merge_tables(df1, df2, left_on, right_on):
     return pd.merge(df1, df2, left_on=left_on, right_on=right_on, how="inner")
@@ -49,7 +49,7 @@ def retrieve_schema_and_profile(con, table_name):
     return schema_df, profile_df
 
 def main():
-    con = connect_to_database('exploitationdb24-11.db')
+    con = connect_to_database('analyticalSandbox/exploitationdb24-11.db')
 
     df_income = fetch_data_from_table(con, 'income')
     df_rents = fetch_data_from_table(con, 'rent')
@@ -67,9 +67,9 @@ def main():
 
     df_analysis = prepare_final_dataset(income_sandbox, rents_sandbox)
 
-    create_new_table_from_df(connect_to_database('analytical_sandboxes.db'), df_analysis, 'sandbox')
+    create_new_table_from_df(connect_to_database('analyticalSandbox/analytical_sandboxes.db'), df_analysis, 'sandbox')
 
-    schema_df, profile_df = retrieve_schema_and_profile(connect_to_database('analytical_sandboxes.db'), 'sandbox')
+    schema_df, profile_df = retrieve_schema_and_profile(connect_to_database('analyticalSandbox/analytical_sandboxes.db'), 'sandbox')
     print("Schema:", schema_df)
     print("\nProfile (first 5 rows):", profile_df)
 

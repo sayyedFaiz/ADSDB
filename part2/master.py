@@ -1,6 +1,6 @@
 import subprocess
 import sys
-sys.append('./')
+sys.path.append('./')
 
 def run_script(script_path):
     try:
@@ -11,8 +11,8 @@ def run_script(script_path):
 
 def main():
     scripts_to_run = [
-        'analyticalSandbox/analytical_sandboxes.py',
-        'analyticalSandbox/analytical_sandbox_profiling.py',
+        # 'analyticalSandbox/analytical_sandboxes.py',
+        # 'analyticalSandbox/analytical_sandbox_profiling.py',
         'featureGeneration/featureGeneration/featuregeneration.py',
         'featureGeneration/dataPreparation/datapreparation.py',
         'featureGeneration/datalabelling/labeling.py',
@@ -20,15 +20,14 @@ def main():
         'featureGeneration/trainingAndValidationDatasets/training_valitdation_profiling.py',
         'trainingAndValidation/trainingAndTesting/machine_learning.py',
         'trainingAndValidation/visualization/visualize_model_comparison.py',
-        'advanceTopic/featureSelection/pca.py'
+        'advanceTopic/featureSelection/pca.py',
         'advanceTopic/featureSelection/machine_learning.py',
-
-
-        # Add more script paths as needed
     ]
 
     for script in scripts_to_run:
+        print("Running..",script)
         run_script(script)
+        print("\n*********************************************")
 
 if __name__ == "__main__":
     main()

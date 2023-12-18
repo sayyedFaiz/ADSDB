@@ -1,10 +1,9 @@
 import pandas as pd
 import sys
-sys.path.append("../../")
-from db_utils import append_new_data_to_csv
+sys.path.append("./")
+from db_utils import (append_new_data_to_csv, load_data)
 
-def load_data(file_path):
-    return pd.read_csv(file_path)
+
 
 def one_hot_encode(df, column_name):
     one_hot = pd.get_dummies(df[column_name])
@@ -14,8 +13,8 @@ def one_hot_encode(df, column_name):
 
 def main():
     # Set your local file paths here
-    input_file_path = '../featureGeneration/df_feature_generation.csv'
-    output_file_path = './df_data_preparation.csv'
+    input_file_path = 'featureGeneration/featureGeneration/df_feature_generation.csv'
+    output_file_path = 'featureGeneration/dataPreparation/df_data_preparation.csv'
 
     df_analysis = load_data(input_file_path)
 
@@ -30,7 +29,8 @@ def main():
     # One-hot encode 'neighbourhood' with no prefix (since the neighbourhood names are unique)
     df_analysis = one_hot_encode(df_analysis, 'neighbourhood')
     df_analysis.head()
-    append_new_data_to_csv(df_analysis, output_file_path)
+    unique_columns = ['year', 'Income', 'avg_rent']
+    append_new_data_to_csv(df_analysis, output_file_path, unique_columns)
 
 if __name__ == "__main__":
     main()

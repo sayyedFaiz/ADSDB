@@ -1,17 +1,18 @@
 import os
 import pandas as pd
 import sys
-sys.path.append('../../')
+sys.path.append('./')
 from machine_learning_utils import splitting
+from db_utils import load_data
 
 def main():
     # Replace these paths with the paths where your input data is stored
-    features_file_path = '../dataLabelling/df_ml_Xset.csv'
-    labels_file_path = '../dataLabelling/df_ml_yset.csv'
+    features_file_path = 'featureGeneration/dataLabelling/df_ml_Xset.csv'
+    labels_file_path = 'featureGeneration/dataLabelling/df_ml_yset.csv'
 
     # Load datasets
-    X = pd.read_csv(features_file_path)
-    y = pd.read_csv(labels_file_path)
+    X = load_data(features_file_path)
+    y = load_data(labels_file_path)
 
 
     # Splitting the dataset

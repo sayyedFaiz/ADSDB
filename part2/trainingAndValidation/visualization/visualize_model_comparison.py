@@ -18,7 +18,7 @@ def visualize_model_comparison(df, error_column, model_column, plot_title):
     plt.show()
 
 def main():
-    results_file_path = '../trainingAndTesting/model_storing2.pkl'
+    results_file_path = 'trainingAndValidation/trainingAndTesting/model_storing2.pkl'
 
     df_models = load_model_results(results_file_path)
 

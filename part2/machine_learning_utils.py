@@ -19,10 +19,7 @@ def splitting(X, y):
     return [ts, rs, X_train, X_test, y_train, y_test]
 
 
-def load_data(features_file_path, labels_file_path):
-    X = pd.read_csv(features_file_path)
-    y = pd.read_csv(labels_file_path)
-    return X, y
+
 
 
 def train_and_evaluate(ts, rs, X_train, y_train, X_test, y_test):

@@ -2,19 +2,9 @@ import duckdb
 import pandas as pd
 import sys
 
-sys.path.append("../")
+sys.path.append("./")
 
-from db_utils import connect_to_database, close_database_connection
-
-
-def connect_to_database(db_path):
-    try:
-        con = duckdb.connect(database=db_path)
-        return con
-    except Exception as e:
-        print(f"Error connecting to database: {e}")
-        raise
-
+from db_utils import (connect_to_database, close_database_connection)
 
 def execute_query(con, query):
     try:
@@ -54,7 +44,7 @@ def summarize_data(con, table_name):
 
 
 def main():
-    db_path = "analytical_sandboxes.db"
+    db_path = "analyticalSandbox/analytical_sandboxes.db"
     table_name = "sandbox"
 
     con = connect_to_database(db_path)

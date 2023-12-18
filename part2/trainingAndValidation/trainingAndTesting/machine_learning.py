@@ -1,26 +1,27 @@
 import sys
 
-sys.path.append("../../")
-import machine_learning_utils as ml
-
+sys.path.append("./")
+from db_utils import load_data
+from machine_learning_utils import (splitting, train_and_evaluate, store_results)
 
 def main():
     # Replace these paths with the paths where your input data is stored
-    features_file_path = "../../featureGeneration/dataLabelling/df_ml_Xset.csv"
-    labels_file_path = "../../featureGeneration/dataLabelling/df_ml_yset.csv"
+    features_file_path = "featureGeneration/dataLabelling/df_ml_Xset.csv"
+    labels_file_path = "featureGeneration/dataLabelling/df_ml_yset.csv"
 
     # Assuming the splitting function is already defined and accessible
-    X, y = ml.load_data(features_file_path, labels_file_path)
-    ts, rs, X_train, X_test, y_train, y_test = ml.splitting(X, y)
+    X = load_data(features_file_path)
+    y= load_data(labels_file_path)
+    ts, rs, X_train, X_test, y_train, y_test = splitting(X, y)
     # Define the models you want to train
 
     # Train and evaluate models
-    results = ml.train_and_evaluate(ts, rs, X_train, y_train, X_test, y_test)
+    results = train_and_evaluate(ts, rs, X_train, y_train, X_test, y_test)
 
     # Store results
-    ml.store_results(
+    store_results(
         results,
-        "./model_storing2.pkl",
+        "trainingAndValidation/trainingAndTesting/model_storing2.pkl",
     )
 
 

@@ -3,7 +3,7 @@ import pandas as pd
 import sys
 
 
-sys.path.append("../../")
+sys.path.append("./")
 from db_utils import (
     connect_to_database,
     close_database_connection,
@@ -61,7 +61,7 @@ def categorize_income_group(df):
 
 
 def main():
-    con = connect_to_database("../../analyticalSandbox/analytical_sandboxes.db")
+    con = connect_to_database("analyticalSandbox/analytical_sandboxes.db")
     df_analysis = fetch_data_from_table(con, "sandbox")
     df_analysis = calculate_avg_rent(df_analysis)
     df_analysis = calculate_income_rent_ratio(df_analysis)
@@ -69,7 +69,9 @@ def main():
     df_analysis = calculate_district_income_variability(df_analysis)
     df_analysis = categorize_income_group(df_analysis)
 
-    append_new_data_to_csv(df_analysis, "df_feature_generation.csv")
+    unique_columns = ['district', 'neighbourhood', 'year']
+
+    append_new_data_to_csv(df_analysis, "featureGeneration/featureGeneration/df_feature_generation.csv",unique_columns)
 
     close_database_connection(con)
 
