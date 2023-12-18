@@ -11,8 +11,8 @@ def run_script(script_path):
 
 def main():
     scripts_to_run = [
-        # 'analyticalSandbox/analytical_sandboxes.py',
-        # 'analyticalSandbox/analytical_sandbox_profiling.py',
+        'analyticalSandbox/analytical_sandboxes.py',
+        'analyticalSandbox/analytical_sandbox_profiling.py',
         'featureGeneration/featureGeneration/featuregeneration.py',
         'featureGeneration/dataPreparation/datapreparation.py',
         'featureGeneration/datalabelling/labeling.py',
