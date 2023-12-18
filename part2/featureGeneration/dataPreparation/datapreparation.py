@@ -1,7 +1,7 @@
 import pandas as pd
 import sys
-sys.path.append("./")
-
+sys.path.append("../../")
+from db_utils import append_new_data_to_csv
 
 def load_data(file_path):
     return pd.read_csv(file_path)
@@ -11,9 +11,6 @@ def one_hot_encode(df, column_name):
     df = df.drop(column_name, axis=1)
     df = df.join(one_hot)
     return df
-
-def save_data(df, file_path):
-    df.to_csv(file_path, index=False)
 
 def main():
     # Set your local file paths here
@@ -33,7 +30,7 @@ def main():
     # One-hot encode 'neighbourhood' with no prefix (since the neighbourhood names are unique)
     df_analysis = one_hot_encode(df_analysis, 'neighbourhood')
     df_analysis.head()
-    save_data(df_analysis, output_file_path)
+    append_new_data_to_csv(df_analysis, output_file_path)
 
 if __name__ == "__main__":
     main()
