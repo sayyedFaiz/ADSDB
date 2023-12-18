@@ -20,8 +20,8 @@ def main():
         'featureGeneration/trainingAndValidationDatasets/training_valitdation_profiling.py',
         'trainingAndValidation/trainingAndTesting/machine_learning.py',
         'trainingAndValidation/visualization/visualize_model_comparison.py',
-        'advanceTopic/featureSelection/machine_learning.py',
         'advanceTopic/featureSelection/pca.py'
+        'advanceTopic/featureSelection/machine_learning.py',
 
 
         # Add more script paths as needed
