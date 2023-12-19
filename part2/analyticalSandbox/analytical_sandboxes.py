@@ -33,9 +33,21 @@ def prepare_final_dataset(income_df, rent_df):
 )
     return df_analysis.dropna(subset=["avg_rent"])
 
+# def create_new_table_from_df(con, df, table_name):
+#     print(df)
+#     query = f"CREATE TABLE {table_name} AS SELECT * FROM {df};"
+#     con.execute(query)
+
 def create_new_table_from_df(con, df, table_name):
-    query = f"CREATE TABLE {table_name} AS SELECT * FROM df_analysis;"
+    # First, register the DataFrame as a virtual table with a temporary name
+    temp_table_name = f"{table_name}_temp"
+    con.register(temp_table_name, df)
+    # Then use the registered table name to create a new table
+    query = f"CREATE TABLE {table_name} AS SELECT * FROM {temp_table_name};"
     con.execute(query)
+    # Unregister the temporary table to clean up
+    con.unregister(temp_table_name)
+
 
 def retrieve_schema_and_profile(con, table_name):
     schema_query = f"SELECT COLUMN_NAME, DATA_TYPE FROM INFORMATION_SCHEMA.COLUMNS WHERE TABLE_NAME = '{table_name}'"
