@@ -33,21 +33,15 @@ def prepare_final_dataset(income_df, rent_df):
 )
     return df_analysis.dropna(subset=["avg_rent"])
 
-# def create_new_table_from_df(con, df, table_name):
-#     print(df)
-#     query = f"CREATE TABLE {table_name} AS SELECT * FROM {df};"
-#     con.execute(query)
+
 
 def create_new_table_from_df(con, df, table_name):
-    # First, register the DataFrame as a virtual table with a temporary name
-    temp_table_name = f"{table_name}_temp"
-    con.register(temp_table_name, df)
-    # Then use the registered table name to create a new table
-    query = f"CREATE TABLE {table_name} AS SELECT * FROM {temp_table_name};"
+    con.register('temp_table', df)
+    query = f"CREATE TABLE {table_name} AS SELECT * FROM temp_table;"
     con.execute(query)
-    # Unregister the temporary table to clean up
-    con.unregister(temp_table_name)
+    con.unregister('temp_table')
 
+# append to the tables if it exist or else create
 
 def retrieve_schema_and_profile(con, table_name):
     schema_query = f"SELECT COLUMN_NAME, DATA_TYPE FROM INFORMATION_SCHEMA.COLUMNS WHERE TABLE_NAME = '{table_name}'"
@@ -78,14 +72,17 @@ def main():
     income_sandbox = result_df[['Income', 'district', 'neighbourhood', 'year']]
 
     df_analysis = prepare_final_dataset(income_sandbox, rents_sandbox)
-
-    create_new_table_from_df(connect_to_database('analyticalSandbox/analytical_sandboxes.db'), df_analysis, 'sandbox')
-
-    schema_df, profile_df = retrieve_schema_and_profile(connect_to_database('analyticalSandbox/analytical_sandboxes.db'), 'sandbox')
-    print("Schema:", schema_df)
-    print("\nProfile (first 5 rows):", profile_df)
-
     close_database_connection(con)
+
+
+    con = connect_to_database('analyticalSandbox/analytical_sandboxes.db')
+    create_new_table_from_df(con, df_analysis, 'sandbox')
+    schema_df, profile_df = retrieve_schema_and_profile(connect_to_database('analyticalSandbox/analytical_sandboxes.db'), 'sandbox')
+    close_database_connection(con)
+
+    # print("Schema:", schema_df)
+    # print("\nProfile (first 5 rows):", profile_df)
+
 
 if __name__ == "__main__":
     main()
