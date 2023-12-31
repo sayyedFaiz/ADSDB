@@ -38,8 +38,9 @@ def append_new_data_to_csv(new_data, file_path, unique_columns):
         existing_data = pd.read_csv(file_path)
         if len(unique_columns) > 1:
             # Filter out duplicates
-            existing_data["unique_id"] = existing_data[unique_columns].apply(
-                lambda row: "_".join(row.values.astype(str)), axis=1
+            if file_path is not "featureGeneration/dataLabelling/df_ml_Xset.csv":
+                existing_data["unique_id"] = existing_data[unique_columns].apply(
+                    lambda row: "_".join(row.values.astype(str)), axis=1
             )
             unique_new_data = new_data[
                 ~new_data["unique_id"].isin(existing_data["unique_id"])

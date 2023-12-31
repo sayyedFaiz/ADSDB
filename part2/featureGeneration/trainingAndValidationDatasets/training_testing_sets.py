@@ -43,7 +43,7 @@ def main():
     y = load_data(labels_file_path)
     ts, rs, X_train, X_test, y_train, y_test = splitting(X, y)
 
-    print_dataset_info(X_train, X_test, y_train, y_test)
+    # print_dataset_info(X_train, X_test, y_train, y_test)
 
 if __name__ == "__main__":
     main()

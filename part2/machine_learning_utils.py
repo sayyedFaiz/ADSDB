@@ -19,9 +19,6 @@ def splitting(X, y):
     return [ts, rs, X_train, X_test, y_train, y_test]
 
 
-
-
-
 def train_and_evaluate(ts, rs, X_train, y_train, X_test, y_test):
     results = []
     models = [
@@ -48,6 +45,7 @@ def train_and_evaluate(ts, rs, X_train, y_train, X_test, y_test):
                 "error": str("{:.3f}".format(mape)),
             }
         )
+
     return results
 
 
@@ -67,3 +65,23 @@ def store_results(results, file_path):
     unique_results = remove_duplicates(existing_results)
     with open(file_path, "wb") as file:
         pickle.dump(unique_results, file)
+
+
+def train_only_best(ts, rs, X_train, y_train, X_test, y_test):
+    results = []
+    model = DecisionTreeRegressor(random_state=42, max_depth=10)
+    model.fit(X_train, y_train.values.ravel())
+    pred = model.predict(X_test)
+    mape = mean_absolute_percentage_error(y_test, pred)
+    results.append(
+        {
+            "test_size": ts,
+            "random_state_of_splitting": rs,
+            "model": str(model),
+            "hyperparameters": str(model.get_params()),
+            "scoring_function": "mean_absolute_percentage_error",
+            "error": str("{:.3f}".format(mape)),
+        }
+    )
+    pickle.dump(model, open('model.pkl', 'wb'))
+    return results

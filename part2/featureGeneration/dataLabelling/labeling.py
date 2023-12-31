@@ -5,6 +5,7 @@ sys.path.append("./")
 
 from db_utils import (append_new_data_to_csv, load_data)
 
+
 def separate_features_and_labels(df, label_column_name):
     X = df.drop(label_column_name, axis=1)
     y = df[label_column_name]
@@ -19,9 +20,10 @@ def main():
     df_analysis = load_data(input_file_path)
 
     X, y = separate_features_and_labels(df_analysis, 'avg_rent')
-    # print(y.name)
     append_new_data_to_csv(X, features_file_path, ['Income', 'year'])
     append_new_data_to_csv(y, labels_file_path, ['avg_rent'])
+    # X = X[X.columns[:-1]]
+
 
 if __name__ == "__main__":
     main()

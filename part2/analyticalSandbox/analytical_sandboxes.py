@@ -1,10 +1,15 @@
 import duckdb
 import pandas as pd
 import sys
+import warnings
 sys.path.append('./')
 from db_utils import (connect_to_database, close_database_connection, fetch_data_from_table)
 
-def merge_tables(df1, df2, left_on, right_on):
+warnings.filterwarnings('ignore')
+
+
+def merge_tables(df1, df2,
+                 left_on, right_on):
     return pd.merge(df1, df2, left_on=left_on, right_on=right_on, how="inner")
 
 
@@ -32,7 +37,6 @@ def prepare_final_dataset(income_df, rent_df):
     axis=1
 )
     return df_analysis.dropna(subset=["avg_rent"])
-
 
 
 # def create_new_table_from_df(con, df, table_name):
@@ -71,7 +75,7 @@ def create_new_table_from_df(con, df, table_name, unique_columns):
         DROP TABLE deduped_temp;
         """
         con.execute(deduplicate_query)
-        print(f"Removed duplicates from table {table_name}.")
+        # print(f"Removed duplicates from table {table_name}.")
 
     # Unregister the virtual table to clean up namespace
     con.unregister('temp_table')
@@ -89,6 +93,7 @@ def retrieve_schema_and_profile(con, table_name):
     profile_df = pd.DataFrame(profile_data, columns=schema_df['Column_Name'].tolist())
 
     return schema_df, profile_df
+
 
 def main():
     con = connect_to_database('analyticalSandbox/exploitationdb24-11.db')
@@ -108,12 +113,13 @@ def main():
     income_sandbox = result_df[['Income', 'district', 'neighbourhood', 'year']]
 
     df_analysis = prepare_final_dataset(income_sandbox, rents_sandbox)
+
     close_database_connection(con)
 
     unique_columns = ['district', 'neighbourhood', 'year']
     con = connect_to_database('analyticalSandbox/analytical_sandboxes.db')
     create_new_table_from_df(con, df_analysis, 'sandbox', unique_columns)
-    schema_df, profile_df = retrieve_schema_and_profile(con, 'sandbox')
+    # schema_df, profile_df = retrieve_schema_and_profile(con, 'sandbox')
     close_database_connection(con)
 
     # print("Schema:", schema_df)
