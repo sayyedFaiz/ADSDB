@@ -1,0 +1,539 @@
+Year,Trimester,District,Neighbourhood,Average _rent,Price
+2019,1,Ciutat Vella,el Raval,average rent (euro/month),822.6
+2019,1,Ciutat Vella,Gothic Quarter,average rent (euro/month),1060.9
+2019,1,Ciutat Vella,la Barceloneta,average rent (euro/month),891.3
+2019,1,Ciutat Vella,"Sant Pere, Santa Caterina i la Ribera",average rent (euro/month),990.2
+2019,1,Eixample,Fort Pienc,average rent (euro/month),957.2
+2019,1,Eixample,Sagrada Familia,average rent (euro/month),936.3
+2019,1,Eixample,la Dreta de l'Eixample,average rent (euro/month),1269.1
+2019,1,Eixample,l'Antiga Esquerra de l'Eixample,average rent (euro/month),1123.0
+2019,1,Eixample,la Nova Esquerra de l'Eixample,average rent (euro/month),1008.5
+2019,1,Eixample,Sant Antoni,average rent (euro/month),986.2
+2019,1,Sants-Montjuic,el Poble Sec,average rent (euro/month),815.8
+2019,1,Sants-Montjuic,la Marina de Port,average rent (euro/month),714.9
+2019,1,Sants-Montjuic,la Font de la Guatlla,average rent (euro/month),857.6
+2019,1,Sants-Montjuic,Hostafrancs,average rent (euro/month),810.0
+2019,1,Sants-Montjuic,la Bordeta,average rent (euro/month),844.1
+2019,1,Sants-Montjuic,Sants - Badal,average rent (euro/month),823.5
+2019,1,Sants-Montjuic,Sants,average rent (euro/month),873.0
+2019,1,Les Corts,les Corts,average rent (euro/month),1070.0
+2019,1,Les Corts,la Maternitat i Sant Ramon,average rent (euro/month),938.5
+2019,1,Les Corts,Pedralbes,average rent (euro/month),1732.5
+2019,1,Sarria-Sant Gervasi,"Vallvidrera, el Tibidabo i les Planes",average rent (euro/month),1103.5
+2019,1,Sarria-Sant Gervasi,Sarria,average rent (euro/month),1297.7
+2019,1,Sarria-Sant Gervasi,les Tres Torres,average rent (euro/month),1645.9
+2019,1,Sarria-Sant Gervasi,Sant Gervasi - la Bonanova,average rent (euro/month),1226.4
+2019,1,Sarria-Sant Gervasi,Sant Gervasi - Galvany,average rent (euro/month),1357.9
+2019,1,Sarria-Sant Gervasi,el Putxet i el Farro,average rent (euro/month),1057.1
+2019,1,Gracia,Vallcarca i els Penitents,average rent (euro/month),907.5
+2019,1,Gracia,el Coll,average rent (euro/month),750.6
+2019,1,Gracia,la Salut,average rent (euro/month),883.4
+2019,1,Gracia,la Vila de Gracia,average rent (euro/month),933.4
+2019,1,Gracia,el Camp d'en Grassot i Gracia Nova,average rent (euro/month),937.3
+2019,1,Horta-Guinardo,el Baix Guinardo,average rent (euro/month),859.1
+2019,1,Horta-Guinardo,Can Baro,average rent (euro/month),791.2
+2019,1,Horta-Guinardo,el Guinardo,average rent (euro/month),789.8
+2019,1,Horta-Guinardo,la Font d'en Fargues,average rent (euro/month),796.5
+2019,1,Horta-Guinardo,el Carmel,average rent (euro/month),670.6
+2019,1,Horta-Guinardo,la Teixonera,average rent (euro/month),704.4
+2019,1,Horta-Guinardo,Sant Genis dels Agudells,average rent (euro/month),759.2
+2019,1,Horta-Guinardo,Montbau,average rent (euro/month),780.4
+2019,1,Horta-Guinardo,la Vall d'Hebron,average rent (euro/month),870.2
+2019,1,Horta-Guinardo,Horta,average rent (euro/month),777.0
+2019,1,Nou Barris,Vilapicina i la Torre Llobeta,average rent (euro/month),758.5
+2019,1,Nou Barris,Porta,average rent (euro/month),722.8
+2019,1,Nou Barris,el Turo de la Peira,average rent (euro/month),685.3
+2019,1,Nou Barris,la Guineueta,average rent (euro/month),751.0
+2019,1,Nou Barris,Canyelles,average rent (euro/month),791.9
+2019,1,Nou Barris,les Roquetes,average rent (euro/month),636.1
+2019,1,Nou Barris,Verdun,average rent (euro/month),633.2
+2019,1,Nou Barris,la Prosperitat,average rent (euro/month),677.4
+2019,1,Nou Barris,la Trinitat Nova,average rent (euro/month),612.3
+2019,1,Nou Barris,Ciutat Meridiana,average rent (euro/month),575.4
+2019,1,Sant Andreu,la Trinitat Vella,average rent (euro/month),601.2
+2019,1,Sant Andreu,el Bon Pastor,average rent (euro/month),705.8
+2019,1,Sant Andreu,Sant Andreu,average rent (euro/month),795.3
+2019,1,Sant Andreu,la Sagrera,average rent (euro/month),807.6
+2019,1,Sant Andreu,el Congres i els Indians,average rent (euro/month),772.3
+2019,1,Sant Andreu,Navas,average rent (euro/month),855.3
+2019,1,Sant Marti,el Camp de l'Arpa del Clot,average rent (euro/month),845.3
+2019,1,Sant Marti,el Clot,average rent (euro/month),828.8
+2019,1,Sant Marti,el Parc i la Llacuna del Poblenou,average rent (euro/month),950.8
+2019,1,Sant Marti,la Vila Olimpica del Poblenou,average rent (euro/month),1304.0
+2019,1,Sant Marti,el Poblenou,average rent (euro/month),952.5
+2019,1,Sant Marti,Diagonal Mar i el Front Maritim del Poblenou,average rent (euro/month),1231.2
+2019,1,Sant Marti,el Besos i el Maresme,average rent (euro/month),694.8
+2019,1,Sant Marti,Provencals del Poblenou,average rent (euro/month),959.2
+2019,1,Sant Marti,Sant Marti de Provencals,average rent (euro/month),840.2
+2019,1,Sant Marti,la Verneda i la Pau,average rent (euro/month),764.6
+2019,1,Ciutat Vella,el Raval,average rent per surface (euro/m2),14.1
+2019,1,Ciutat Vella,Gothic Quarter,average rent per surface (euro/m2),14.5
+2019,1,Ciutat Vella,la Barceloneta,average rent per surface (euro/m2),16.8
+2019,1,Ciutat Vella,"Sant Pere, Santa Caterina i la Ribera",average rent per surface (euro/m2),14.7
+2019,1,Eixample,Fort Pienc,average rent per surface (euro/m2),13.7
+2019,1,Eixample,Sagrada Familia,average rent per surface (euro/m2),14.4
+2019,1,Eixample,la Dreta de l'Eixample,average rent per surface (euro/m2),13.9
+2019,1,Eixample,l'Antiga Esquerra de l'Eixample,average rent per surface (euro/m2),14.3
+2019,1,Eixample,la Nova Esquerra de l'Eixample,average rent per surface (euro/m2),13.9
+2019,1,Eixample,Sant Antoni,average rent per surface (euro/m2),13.8
+2019,1,Sants-Montjuic,el Poble Sec,average rent per surface (euro/m2),14.3
+2019,1,Sants-Montjuic,la Marina de Port,average rent per surface (euro/m2),10.1
+2019,1,Sants-Montjuic,la Font de la Guatlla,average rent per surface (euro/m2),12.9
+2019,1,Sants-Montjuic,Hostafrancs,average rent per surface (euro/m2),14.1
+2019,1,Sants-Montjuic,la Bordeta,average rent per surface (euro/m2),12.5
+2019,1,Sants-Montjuic,Sants - Badal,average rent per surface (euro/m2),13.4
+2019,1,Sants-Montjuic,Sants,average rent per surface (euro/m2),13.7
+2019,1,Les Corts,les Corts,average rent per surface (euro/m2),14.6
+2019,1,Les Corts,la Maternitat i Sant Ramon,average rent per surface (euro/m2),13.8
+2019,1,Les Corts,Pedralbes,average rent per surface (euro/m2),16.0
+2019,1,Sarria-Sant Gervasi,"Vallvidrera, el Tibidabo i les Planes",average rent per surface (euro/m2),11.4
+2019,1,Sarria-Sant Gervasi,Sarria,average rent per surface (euro/m2),16.3
+2019,1,Sarria-Sant Gervasi,les Tres Torres,average rent per surface (euro/m2),16.5
+2019,1,Sarria-Sant Gervasi,Sant Gervasi - la Bonanova,average rent per surface (euro/m2),15.5
+2019,1,Sarria-Sant Gervasi,Sant Gervasi - Galvany,average rent per surface (euro/m2),14.4
+2019,1,Sarria-Sant Gervasi,el Putxet i el Farro,average rent per surface (euro/m2),15.2
+2019,1,Gracia,Vallcarca i els Penitents,average rent per surface (euro/m2),13.6
+2019,1,Gracia,el Coll,average rent per surface (euro/m2),12.2
+2019,1,Gracia,la Salut,average rent per surface (euro/m2),12.7
+2019,1,Gracia,la Vila de Gracia,average rent per surface (euro/m2),14.8
+2019,1,Gracia,el Camp d'en Grassot i Gracia Nova,average rent per surface (euro/m2),14.1
+2019,1,Horta-Guinardo,el Baix Guinardo,average rent per surface (euro/m2),12.9
+2019,1,Horta-Guinardo,Can Baro,average rent per surface (euro/m2),13.6
+2019,1,Horta-Guinardo,el Guinardo,average rent per surface (euro/m2),12.4
+2019,1,Horta-Guinardo,la Font d'en Fargues,average rent per surface (euro/m2),11.6
+2019,1,Horta-Guinardo,el Carmel,average rent per surface (euro/m2),12.0
+2019,1,Horta-Guinardo,la Teixonera,average rent per surface (euro/m2),11.7
+2019,1,Horta-Guinardo,Sant Genis dels Agudells,average rent per surface (euro/m2),10.9
+2019,1,Horta-Guinardo,Montbau,average rent per surface (euro/m2),11.6
+2019,1,Horta-Guinardo,la Vall d'Hebron,average rent per surface (euro/m2),13.3
+2019,1,Horta-Guinardo,Horta,average rent per surface (euro/m2),12.2
+2019,1,Nou Barris,Vilapicina i la Torre Llobeta,average rent per surface (euro/m2),11.9
+2019,1,Nou Barris,Porta,average rent per surface (euro/m2),11.6
+2019,1,Nou Barris,el Turo de la Peira,average rent per surface (euro/m2),11.4
+2019,1,Nou Barris,la Guineueta,average rent per surface (euro/m2),10.3
+2019,1,Nou Barris,Canyelles,average rent per surface (euro/m2),9.6
+2019,1,Nou Barris,les Roquetes,average rent per surface (euro/m2),11.8
+2019,1,Nou Barris,Verdun,average rent per surface (euro/m2),10.7
+2019,1,Nou Barris,la Prosperitat,average rent per surface (euro/m2),11.7
+2019,1,Nou Barris,la Trinitat Nova,average rent per surface (euro/m2),12.0
+2019,1,Nou Barris,Ciutat Meridiana,average rent per surface (euro/m2),9.8
+2019,1,Sant Andreu,la Trinitat Vella,average rent per surface (euro/m2),10.3
+2019,1,Sant Andreu,el Bon Pastor,average rent per surface (euro/m2),10.9
+2019,1,Sant Andreu,Sant Andreu,average rent per surface (euro/m2),12.2
+2019,1,Sant Andreu,la Sagrera,average rent per surface (euro/m2),12.4
+2019,1,Sant Andreu,el Congres i els Indians,average rent per surface (euro/m2),11.5
+2019,1,Sant Andreu,Navas,average rent per surface (euro/m2),12.3
+2019,1,Sant Marti,el Camp de l'Arpa del Clot,average rent per surface (euro/m2),13.1
+2019,1,Sant Marti,el Clot,average rent per surface (euro/m2),12.9
+2019,1,Sant Marti,el Parc i la Llacuna del Poblenou,average rent per surface (euro/m2),14.7
+2019,1,Sant Marti,la Vila Olimpica del Poblenou,average rent per surface (euro/m2),17.1
+2019,1,Sant Marti,el Poblenou,average rent per surface (euro/m2),14.4
+2019,1,Sant Marti,Diagonal Mar i el Front Maritim del Poblenou,average rent per surface (euro/m2),16.3
+2019,1,Sant Marti,el Besos i el Maresme,average rent per surface (euro/m2),11.0
+2019,1,Sant Marti,Provencals del Poblenou,average rent per surface (euro/m2),13.9
+2019,1,Sant Marti,Sant Marti de Provencals,average rent per surface (euro/m2),11.7
+2019,1,Sant Marti,la Verneda i la Pau,average rent per surface (euro/m2),11.5
+2019,2,Ciutat Vella,el Raval,average rent (euro/month),867.0
+2019,2,Ciutat Vella,Gothic Quarter,average rent (euro/month),1112.1
+2019,2,Ciutat Vella,la Barceloneta,average rent (euro/month),924.0
+2019,2,Ciutat Vella,"Sant Pere, Santa Caterina i la Ribera",average rent (euro/month),1010.1
+2019,2,Eixample,Fort Pienc,average rent (euro/month),988.7
+2019,2,Eixample,Sagrada Familia,average rent (euro/month),942.9
+2019,2,Eixample,la Dreta de l'Eixample,average rent (euro/month),1277.9
+2019,2,Eixample,l'Antiga Esquerra de l'Eixample,average rent (euro/month),1139.8
+2019,2,Eixample,la Nova Esquerra de l'Eixample,average rent (euro/month),1032.9
+2019,2,Eixample,Sant Antoni,average rent (euro/month),985.2
+2019,2,Sants-Montjuic,el Poble Sec,average rent (euro/month),823.4
+2019,2,Sants-Montjuic,la Marina de Port,average rent (euro/month),753.1
+2019,2,Sants-Montjuic,la Font de la Guatlla,average rent (euro/month),854.2
+2019,2,Sants-Montjuic,Hostafrancs,average rent (euro/month),824.2
+2019,2,Sants-Montjuic,la Bordeta,average rent (euro/month),859.5
+2019,2,Sants-Montjuic,Sants - Badal,average rent (euro/month),858.4
+2019,2,Sants-Montjuic,Sants,average rent (euro/month),867.5
+2019,2,Les Corts,les Corts,average rent (euro/month),1085.1
+2019,2,Les Corts,la Maternitat i Sant Ramon,average rent (euro/month),973.0
+2019,2,Les Corts,Pedralbes,average rent (euro/month),1746.7
+2019,2,Sarria-Sant Gervasi,"Vallvidrera, el Tibidabo i les Planes",average rent (euro/month),1121.6
+2019,2,Sarria-Sant Gervasi,Sarria,average rent (euro/month),1334.2
+2019,2,Sarria-Sant Gervasi,les Tres Torres,average rent (euro/month),1602.5
+2019,2,Sarria-Sant Gervasi,Sant Gervasi - la Bonanova,average rent (euro/month),1310.0
+2019,2,Sarria-Sant Gervasi,Sant Gervasi - Galvany,average rent (euro/month),1360.3
+2019,2,Sarria-Sant Gervasi,el Putxet i el Farro,average rent (euro/month),1115.7
+2019,2,Gracia,Vallcarca i els Penitents,average rent (euro/month),1028.9
+2019,2,Gracia,el Coll,average rent (euro/month),819.8
+2019,2,Gracia,la Salut,average rent (euro/month),899.2
+2019,2,Gracia,la Vila de Gracia,average rent (euro/month),951.2
+2019,2,Gracia,el Camp d'en Grassot i Gracia Nova,average rent (euro/month),978.3
+2019,2,Horta-Guinardo,el Baix Guinardo,average rent (euro/month),866.8
+2019,2,Horta-Guinardo,Can Baro,average rent (euro/month),764.5
+2019,2,Horta-Guinardo,el Guinardo,average rent (euro/month),825.0
+2019,2,Horta-Guinardo,la Font d'en Fargues,average rent (euro/month),1044.0
+2019,2,Horta-Guinardo,el Carmel,average rent (euro/month),666.9
+2019,2,Horta-Guinardo,la Teixonera,average rent (euro/month),725.9
+2019,2,Horta-Guinardo,Sant Genis dels Agudells,average rent (euro/month),705.1
+2019,2,Horta-Guinardo,Montbau,average rent (euro/month),802.4
+2019,2,Horta-Guinardo,la Vall d'Hebron,average rent (euro/month),796.6
+2019,2,Horta-Guinardo,Horta,average rent (euro/month),760.6
+2019,2,Nou Barris,Vilapicina i la Torre Llobeta,average rent (euro/month),773.7
+2019,2,Nou Barris,Porta,average rent (euro/month),775.3
+2019,2,Nou Barris,el Turo de la Peira,average rent (euro/month),702.4
+2019,2,Nou Barris,la Guineueta,average rent (euro/month),723.1
+2019,2,Nou Barris,Canyelles,average rent (euro/month),756.4
+2019,2,Nou Barris,les Roquetes,average rent (euro/month),625.3
+2019,2,Nou Barris,Verdun,average rent (euro/month),653.3
+2019,2,Nou Barris,la Prosperitat,average rent (euro/month),673.7
+2019,2,Nou Barris,la Trinitat Nova,average rent (euro/month),640.2
+2019,2,Nou Barris,Ciutat Meridiana,average rent (euro/month),559.8
+2019,2,Sant Andreu,la Trinitat Vella,average rent (euro/month),614.7
+2019,2,Sant Andreu,el Bon Pastor,average rent (euro/month),659.2
+2019,2,Sant Andreu,Sant Andreu,average rent (euro/month),800.9
+2019,2,Sant Andreu,la Sagrera,average rent (euro/month),807.5
+2019,2,Sant Andreu,el Congres i els Indians,average rent (euro/month),782.7
+2019,2,Sant Andreu,Navas,average rent (euro/month),836.9
+2019,2,Sant Marti,el Camp de l'Arpa del Clot,average rent (euro/month),844.3
+2019,2,Sant Marti,el Clot,average rent (euro/month),829.4
+2019,2,Sant Marti,el Parc i la Llacuna del Poblenou,average rent (euro/month),1066.6
+2019,2,Sant Marti,la Vila Olimpica del Poblenou,average rent (euro/month),1444.6
+2019,2,Sant Marti,el Poblenou,average rent (euro/month),996.7
+2019,2,Sant Marti,Diagonal Mar i el Front Maritim del Poblenou,average rent (euro/month),1388.1
+2019,2,Sant Marti,el Besos i el Maresme,average rent (euro/month),844.5
+2019,2,Sant Marti,Provencals del Poblenou,average rent (euro/month),960.1
+2019,2,Sant Marti,Sant Marti de Provencals,average rent (euro/month),844.1
+2019,2,Sant Marti,la Verneda i la Pau,average rent (euro/month),798.1
+2019,2,Ciutat Vella,el Raval,average rent per surface (euro/m2),14.5
+2019,2,Ciutat Vella,Gothic Quarter,average rent per surface (euro/m2),14.0
+2019,2,Ciutat Vella,la Barceloneta,average rent per surface (euro/m2),18.1
+2019,2,Ciutat Vella,"Sant Pere, Santa Caterina i la Ribera",average rent per surface (euro/m2),15.5
+2019,2,Eixample,Fort Pienc,average rent per surface (euro/m2),13.6
+2019,2,Eixample,Sagrada Familia,average rent per surface (euro/m2),14.4
+2019,2,Eixample,la Dreta de l'Eixample,average rent per surface (euro/m2),14.2
+2019,2,Eixample,l'Antiga Esquerra de l'Eixample,average rent per surface (euro/m2),14.1
+2019,2,Eixample,la Nova Esquerra de l'Eixample,average rent per surface (euro/m2),14.6
+2019,2,Eixample,Sant Antoni,average rent per surface (euro/m2),14.0
+2019,2,Sants-Montjuic,el Poble Sec,average rent per surface (euro/m2),14.2
+2019,2,Sants-Montjuic,la Marina de Port,average rent per surface (euro/m2),10.6
+2019,2,Sants-Montjuic,la Font de la Guatlla,average rent per surface (euro/m2),12.6
+2019,2,Sants-Montjuic,Hostafrancs,average rent per surface (euro/m2),13.3
+2019,2,Sants-Montjuic,la Bordeta,average rent per surface (euro/m2),12.4
+2019,2,Sants-Montjuic,Sants - Badal,average rent per surface (euro/m2),13.8
+2019,2,Sants-Montjuic,Sants,average rent per surface (euro/m2),13.9
+2019,2,Les Corts,les Corts,average rent per surface (euro/m2),14.9
+2019,2,Les Corts,la Maternitat i Sant Ramon,average rent per surface (euro/m2),13.8
+2019,2,Les Corts,Pedralbes,average rent per surface (euro/m2),14.8
+2019,2,Sarria-Sant Gervasi,"Vallvidrera, el Tibidabo i les Planes",average rent per surface (euro/m2),13.5
+2019,2,Sarria-Sant Gervasi,Sarria,average rent per surface (euro/m2),16.8
+2019,2,Sarria-Sant Gervasi,les Tres Torres,average rent per surface (euro/m2),16.9
+2019,2,Sarria-Sant Gervasi,Sant Gervasi - la Bonanova,average rent per surface (euro/m2),15.7
+2019,2,Sarria-Sant Gervasi,Sant Gervasi - Galvany,average rent per surface (euro/m2),15.5
+2019,2,Sarria-Sant Gervasi,el Putxet i el Farro,average rent per surface (euro/m2),14.8
+2019,2,Gracia,Vallcarca i els Penitents,average rent per surface (euro/m2),14.4
+2019,2,Gracia,el Coll,average rent per surface (euro/m2),12.5
+2019,2,Gracia,la Salut,average rent per surface (euro/m2),12.9
+2019,2,Gracia,la Vila de Gracia,average rent per surface (euro/m2),15.2
+2019,2,Gracia,el Camp d'en Grassot i Gracia Nova,average rent per surface (euro/m2),14.7
+2019,2,Horta-Guinardo,el Baix Guinardo,average rent per surface (euro/m2),12.9
+2019,2,Horta-Guinardo,Can Baro,average rent per surface (euro/m2),13.0
+2019,2,Horta-Guinardo,el Guinardo,average rent per surface (euro/m2),12.9
+2019,2,Horta-Guinardo,la Font d'en Fargues,average rent per surface (euro/m2),13.9
+2019,2,Horta-Guinardo,el Carmel,average rent per surface (euro/m2),11.5
+2019,2,Horta-Guinardo,la Teixonera,average rent per surface (euro/m2),12.5
+2019,2,Horta-Guinardo,Sant Genis dels Agudells,average rent per surface (euro/m2),9.9
+2019,2,Horta-Guinardo,Montbau,average rent per surface (euro/m2),11.7
+2019,2,Horta-Guinardo,la Vall d'Hebron,average rent per surface (euro/m2),12.5
+2019,2,Horta-Guinardo,Horta,average rent per surface (euro/m2),12.1
+2019,2,Nou Barris,Vilapicina i la Torre Llobeta,average rent per surface (euro/m2),12.2
+2019,2,Nou Barris,Porta,average rent per surface (euro/m2),12.2
+2019,2,Nou Barris,el Turo de la Peira,average rent per surface (euro/m2),12.1
+2019,2,Nou Barris,la Guineueta,average rent per surface (euro/m2),9.8
+2019,2,Nou Barris,Canyelles,average rent per surface (euro/m2),9.3
+2019,2,Nou Barris,les Roquetes,average rent per surface (euro/m2),11.1
+2019,2,Nou Barris,Verdun,average rent per surface (euro/m2),12.2
+2019,2,Nou Barris,la Prosperitat,average rent per surface (euro/m2),12.0
+2019,2,Nou Barris,la Trinitat Nova,average rent per surface (euro/m2),12.8
+2019,2,Nou Barris,Ciutat Meridiana,average rent per surface (euro/m2),9.4
+2019,2,Sant Andreu,la Trinitat Vella,average rent per surface (euro/m2),10.3
+2019,2,Sant Andreu,el Bon Pastor,average rent per surface (euro/m2),10.1
+2019,2,Sant Andreu,Sant Andreu,average rent per surface (euro/m2),12.7
+2019,2,Sant Andreu,la Sagrera,average rent per surface (euro/m2),12.6
+2019,2,Sant Andreu,el Congres i els Indians,average rent per surface (euro/m2),12.2
+2019,2,Sant Andreu,Navas,average rent per surface (euro/m2),12.1
+2019,2,Sant Marti,el Camp de l'Arpa del Clot,average rent per surface (euro/m2),13.5
+2019,2,Sant Marti,el Clot,average rent per surface (euro/m2),12.9
+2019,2,Sant Marti,el Parc i la Llacuna del Poblenou,average rent per surface (euro/m2),15.2
+2019,2,Sant Marti,la Vila Olimpica del Poblenou,average rent per surface (euro/m2),17.4
+2019,2,Sant Marti,el Poblenou,average rent per surface (euro/m2),14.6
+2019,2,Sant Marti,Diagonal Mar i el Front Maritim del Poblenou,average rent per surface (euro/m2),16.1
+2019,2,Sant Marti,el Besos i el Maresme,average rent per surface (euro/m2),12.0
+2019,2,Sant Marti,Provencals del Poblenou,average rent per surface (euro/m2),13.6
+2019,2,Sant Marti,Sant Marti de Provencals,average rent per surface (euro/m2),12.1
+2019,2,Sant Marti,la Verneda i la Pau,average rent per surface (euro/m2),11.8
+2019,3,Ciutat Vella,el Raval,average rent (euro/month),869.1
+2019,3,Ciutat Vella,Gothic Quarter,average rent (euro/month),1082.4
+2019,3,Ciutat Vella,la Barceloneta,average rent (euro/month),871.6
+2019,3,Ciutat Vella,"Sant Pere, Santa Caterina i la Ribera",average rent (euro/month),1020.2
+2019,3,Eixample,Fort Pienc,average rent (euro/month),1031.3
+2019,3,Eixample,Sagrada Familia,average rent (euro/month),979.6
+2019,3,Eixample,la Dreta de l'Eixample,average rent (euro/month),1348.9
+2019,3,Eixample,l'Antiga Esquerra de l'Eixample,average rent (euro/month),1194.4
+2019,3,Eixample,la Nova Esquerra de l'Eixample,average rent (euro/month),1081.4
+2019,3,Eixample,Sant Antoni,average rent (euro/month),987.2
+2019,3,Sants-Montjuic,el Poble Sec,average rent (euro/month),865.8
+2019,3,Sants-Montjuic,la Marina de Port,average rent (euro/month),790.1
+2019,3,Sants-Montjuic,la Font de la Guatlla,average rent (euro/month),881.5
+2019,3,Sants-Montjuic,Hostafrancs,average rent (euro/month),834.6
+2019,3,Sants-Montjuic,la Bordeta,average rent (euro/month),832.9
+2019,3,Sants-Montjuic,Sants - Badal,average rent (euro/month),888.3
+2019,3,Sants-Montjuic,Sants,average rent (euro/month),884.3
+2019,3,Les Corts,les Corts,average rent (euro/month),1113.9
+2019,3,Les Corts,la Maternitat i Sant Ramon,average rent (euro/month),1040.3
+2019,3,Les Corts,Pedralbes,average rent (euro/month),1950.1
+2019,3,Sarria-Sant Gervasi,"Vallvidrera, el Tibidabo i les Planes",average rent (euro/month),1355.5
+2019,3,Sarria-Sant Gervasi,Sarria,average rent (euro/month),1449.5
+2019,3,Sarria-Sant Gervasi,les Tres Torres,average rent (euro/month),1614.8
+2019,3,Sarria-Sant Gervasi,Sant Gervasi - la Bonanova,average rent (euro/month),1317.0
+2019,3,Sarria-Sant Gervasi,Sant Gervasi - Galvany,average rent (euro/month),1412.2
+2019,3,Sarria-Sant Gervasi,el Putxet i el Farro,average rent (euro/month),1070.2
+2019,3,Gracia,Vallcarca i els Penitents,average rent (euro/month),953.7
+2019,3,Gracia,el Coll,average rent (euro/month),813.8
+2019,3,Gracia,la Salut,average rent (euro/month),926.4
+2019,3,Gracia,la Vila de Gracia,average rent (euro/month),991.5
+2019,3,Gracia,el Camp d'en Grassot i Gracia Nova,average rent (euro/month),996.3
+2019,3,Horta-Guinardo,el Baix Guinardo,average rent (euro/month),902.2
+2019,3,Horta-Guinardo,Can Baro,average rent (euro/month),762.5
+2019,3,Horta-Guinardo,el Guinardo,average rent (euro/month),819.7
+2019,3,Horta-Guinardo,la Font d'en Fargues,average rent (euro/month),880.2
+2019,3,Horta-Guinardo,el Carmel,average rent (euro/month),703.3
+2019,3,Horta-Guinardo,la Teixonera,average rent (euro/month),773.7
+2019,3,Horta-Guinardo,Sant Genis dels Agudells,average rent (euro/month),756.0
+2019,3,Horta-Guinardo,Montbau,average rent (euro/month),792.4
+2019,3,Horta-Guinardo,la Vall d'Hebron,average rent (euro/month),830.0
+2019,3,Horta-Guinardo,Horta,average rent (euro/month),788.6
+2019,3,Nou Barris,Vilapicina i la Torre Llobeta,average rent (euro/month),792.2
+2019,3,Nou Barris,Porta,average rent (euro/month),749.2
+2019,3,Nou Barris,el Turo de la Peira,average rent (euro/month),690.0
+2019,3,Nou Barris,la Guineueta,average rent (euro/month),721.1
+2019,3,Nou Barris,Canyelles,average rent (euro/month),714.4
+2019,3,Nou Barris,les Roquetes,average rent (euro/month),612.3
+2019,3,Nou Barris,Verdun,average rent (euro/month),696.1
+2019,3,Nou Barris,la Prosperitat,average rent (euro/month),696.3
+2019,3,Nou Barris,la Trinitat Nova,average rent (euro/month),617.9
+2019,3,Nou Barris,Ciutat Meridiana,average rent (euro/month),532.6
+2019,3,Sant Andreu,la Trinitat Vella,average rent (euro/month),569.9
+2019,3,Sant Andreu,el Bon Pastor,average rent (euro/month),654.3
+2019,3,Sant Andreu,Sant Andreu,average rent (euro/month),805.0
+2019,3,Sant Andreu,la Sagrera,average rent (euro/month),827.1
+2019,3,Sant Andreu,el Congres i els Indians,average rent (euro/month),805.9
+2019,3,Sant Andreu,Navas,average rent (euro/month),864.6
+2019,3,Sant Marti,el Camp de l'Arpa del Clot,average rent (euro/month),879.5
+2019,3,Sant Marti,el Clot,average rent (euro/month),899.1
+2019,3,Sant Marti,el Parc i la Llacuna del Poblenou,average rent (euro/month),959.6
+2019,3,Sant Marti,la Vila Olimpica del Poblenou,average rent (euro/month),1332.4
+2019,3,Sant Marti,el Poblenou,average rent (euro/month),1024.3
+2019,3,Sant Marti,Diagonal Mar i el Front Maritim del Poblenou,average rent (euro/month),1409.4
+2019,3,Sant Marti,el Besos i el Maresme,average rent (euro/month),728.3
+2019,3,Sant Marti,Provencals del Poblenou,average rent (euro/month),996.4
+2019,3,Sant Marti,Sant Marti de Provencals,average rent (euro/month),829.7
+2019,3,Sant Marti,la Verneda i la Pau,average rent (euro/month),770.2
+2019,3,Ciutat Vella,el Raval,average rent per surface (euro/m2),14.7
+2019,3,Ciutat Vella,Gothic Quarter,average rent per surface (euro/m2),14.3
+2019,3,Ciutat Vella,la Barceloneta,average rent per surface (euro/m2),17.7
+2019,3,Ciutat Vella,"Sant Pere, Santa Caterina i la Ribera",average rent per surface (euro/m2),15.7
+2019,3,Eixample,Fort Pienc,average rent per surface (euro/m2),14.3
+2019,3,Eixample,Sagrada Familia,average rent per surface (euro/m2),14.6
+2019,3,Eixample,la Dreta de l'Eixample,average rent per surface (euro/m2),15.2
+2019,3,Eixample,l'Antiga Esquerra de l'Eixample,average rent per surface (euro/m2),14.7
+2019,3,Eixample,la Nova Esquerra de l'Eixample,average rent per surface (euro/m2),14.6
+2019,3,Eixample,Sant Antoni,average rent per surface (euro/m2),13.9
+2019,3,Sants-Montjuic,el Poble Sec,average rent per surface (euro/m2),14.4
+2019,3,Sants-Montjuic,la Marina de Port,average rent per surface (euro/m2),11.1
+2019,3,Sants-Montjuic,la Font de la Guatlla,average rent per surface (euro/m2),13.0
+2019,3,Sants-Montjuic,Hostafrancs,average rent per surface (euro/m2),14.1
+2019,3,Sants-Montjuic,la Bordeta,average rent per surface (euro/m2),13.3
+2019,3,Sants-Montjuic,Sants - Badal,average rent per surface (euro/m2),14.2
+2019,3,Sants-Montjuic,Sants,average rent per surface (euro/m2),13.9
+2019,3,Les Corts,les Corts,average rent per surface (euro/m2),15.2
+2019,3,Les Corts,la Maternitat i Sant Ramon,average rent per surface (euro/m2),15.0
+2019,3,Les Corts,Pedralbes,average rent per surface (euro/m2),16.4
+2019,3,Sarria-Sant Gervasi,"Vallvidrera, el Tibidabo i les Planes",average rent per surface (euro/m2),16.0
+2019,3,Sarria-Sant Gervasi,Sarria,average rent per surface (euro/m2),17.2
+2019,3,Sarria-Sant Gervasi,les Tres Torres,average rent per surface (euro/m2),17.3
+2019,3,Sarria-Sant Gervasi,Sant Gervasi - la Bonanova,average rent per surface (euro/m2),16.5
+2019,3,Sarria-Sant Gervasi,Sant Gervasi - Galvany,average rent per surface (euro/m2),15.9
+2019,3,Sarria-Sant Gervasi,el Putxet i el Farro,average rent per surface (euro/m2),15.0
+2019,3,Gracia,Vallcarca i els Penitents,average rent per surface (euro/m2),13.9
+2019,3,Gracia,el Coll,average rent per surface (euro/m2),12.8
+2019,3,Gracia,la Salut,average rent per surface (euro/m2),13.7
+2019,3,Gracia,la Vila de Gracia,average rent per surface (euro/m2),15.6
+2019,3,Gracia,el Camp d'en Grassot i Gracia Nova,average rent per surface (euro/m2),15.2
+2019,3,Horta-Guinardo,el Baix Guinardo,average rent per surface (euro/m2),14.2
+2019,3,Horta-Guinardo,Can Baro,average rent per surface (euro/m2),13.5
+2019,3,Horta-Guinardo,el Guinardo,average rent per surface (euro/m2),13.0
+2019,3,Horta-Guinardo,la Font d'en Fargues,average rent per surface (euro/m2),12.8
+2019,3,Horta-Guinardo,el Carmel,average rent per surface (euro/m2),12.8
+2019,3,Horta-Guinardo,la Teixonera,average rent per surface (euro/m2),13.2
+2019,3,Horta-Guinardo,Sant Genis dels Agudells,average rent per surface (euro/m2),10.4
+2019,3,Horta-Guinardo,Montbau,average rent per surface (euro/m2),12.1
+2019,3,Horta-Guinardo,la Vall d'Hebron,average rent per surface (euro/m2),13.4
+2019,3,Horta-Guinardo,Horta,average rent per surface (euro/m2),12.6
+2019,3,Nou Barris,Vilapicina i la Torre Llobeta,average rent per surface (euro/m2),12.1
+2019,3,Nou Barris,Porta,average rent per surface (euro/m2),12.7
+2019,3,Nou Barris,el Turo de la Peira,average rent per surface (euro/m2),11.6
+2019,3,Nou Barris,la Guineueta,average rent per surface (euro/m2),10.5
+2019,3,Nou Barris,Canyelles,average rent per surface (euro/m2),9.5
+2019,3,Nou Barris,les Roquetes,average rent per surface (euro/m2),11.3
+2019,3,Nou Barris,Verdun,average rent per surface (euro/m2),12.6
+2019,3,Nou Barris,la Prosperitat,average rent per surface (euro/m2),12.6
+2019,3,Nou Barris,la Trinitat Nova,average rent per surface (euro/m2),12.2
+2019,3,Nou Barris,Ciutat Meridiana,average rent per surface (euro/m2),9.4
+2019,3,Sant Andreu,la Trinitat Vella,average rent per surface (euro/m2),8.9
+2019,3,Sant Andreu,el Bon Pastor,average rent per surface (euro/m2),10.3
+2019,3,Sant Andreu,Sant Andreu,average rent per surface (euro/m2),12.5
+2019,3,Sant Andreu,la Sagrera,average rent per surface (euro/m2),13.2
+2019,3,Sant Andreu,el Congres i els Indians,average rent per surface (euro/m2),12.3
+2019,3,Sant Andreu,Navas,average rent per surface (euro/m2),12.4
+2019,3,Sant Marti,el Camp de l'Arpa del Clot,average rent per surface (euro/m2),13.6
+2019,3,Sant Marti,el Clot,average rent per surface (euro/m2),13.8
+2019,3,Sant Marti,el Parc i la Llacuna del Poblenou,average rent per surface (euro/m2),14.5
+2019,3,Sant Marti,la Vila Olimpica del Poblenou,average rent per surface (euro/m2),17.9
+2019,3,Sant Marti,el Poblenou,average rent per surface (euro/m2),15.5
+2019,3,Sant Marti,Diagonal Mar i el Front Maritim del Poblenou,average rent per surface (euro/m2),18.5
+2019,3,Sant Marti,el Besos i el Maresme,average rent per surface (euro/m2),11.6
+2019,3,Sant Marti,Provencals del Poblenou,average rent per surface (euro/m2),14.4
+2019,3,Sant Marti,Sant Marti de Provencals,average rent per surface (euro/m2),11.9
+2019,3,Sant Marti,la Verneda i la Pau,average rent per surface (euro/m2),11.2
+2019,4,Ciutat Vella,el Raval,average rent (euro/month),844.9
+2019,4,Ciutat Vella,Gothic Quarter,average rent (euro/month),1139.7
+2019,4,Ciutat Vella,la Barceloneta,average rent (euro/month),893.0
+2019,4,Ciutat Vella,"Sant Pere, Santa Caterina i la Ribera",average rent (euro/month),966.4
+2019,4,Eixample,Fort Pienc,average rent (euro/month),1064.4
+2019,4,Eixample,Sagrada Familia,average rent (euro/month),980.0
+2019,4,Eixample,la Dreta de l'Eixample,average rent (euro/month),1333.0
+2019,4,Eixample,l'Antiga Esquerra de l'Eixample,average rent (euro/month),1187.6
+2019,4,Eixample,la Nova Esquerra de l'Eixample,average rent (euro/month),1083.7
+2019,4,Eixample,Sant Antoni,average rent (euro/month),1018.4
+2019,4,Sants-Montjuic,el Poble Sec,average rent (euro/month),846.2
+2019,4,Sants-Montjuic,la Marina del Prat Vermell,average rent (euro/month),350.5
+2019,4,Sants-Montjuic,la Marina de Port,average rent (euro/month),816.7
+2019,4,Sants-Montjuic,la Font de la Guatlla,average rent (euro/month),868.8
+2019,4,Sants-Montjuic,Hostafrancs,average rent (euro/month),854.4
+2019,4,Sants-Montjuic,la Bordeta,average rent (euro/month),870.0
+2019,4,Sants-Montjuic,Sants - Badal,average rent (euro/month),838.0
+2019,4,Sants-Montjuic,Sants,average rent (euro/month),884.8
+2019,4,Les Corts,les Corts,average rent (euro/month),1116.2
+2019,4,Les Corts,la Maternitat i Sant Ramon,average rent (euro/month),1078.1
+2019,4,Les Corts,Pedralbes,average rent (euro/month),2023.4
+2019,4,Sarria-Sant Gervasi,"Vallvidrera, el Tibidabo i les Planes",average rent (euro/month),1220.0
+2019,4,Sarria-Sant Gervasi,Sarria,average rent (euro/month),1398.4
+2019,4,Sarria-Sant Gervasi,les Tres Torres,average rent (euro/month),1745.0
+2019,4,Sarria-Sant Gervasi,Sant Gervasi - la Bonanova,average rent (euro/month),1361.6
+2019,4,Sarria-Sant Gervasi,Sant Gervasi - Galvany,average rent (euro/month),1455.9
+2019,4,Sarria-Sant Gervasi,el Putxet i el Farro,average rent (euro/month),1099.8
+2019,4,Gracia,Vallcarca i els Penitents,average rent (euro/month),987.0
+2019,4,Gracia,el Coll,average rent (euro/month),817.5
+2019,4,Gracia,la Salut,average rent (euro/month),954.4
+2019,4,Gracia,la Vila de Gracia,average rent (euro/month),975.7
+2019,4,Gracia,el Camp d'en Grassot i Gracia Nova,average rent (euro/month),1017.6
+2019,4,Horta-Guinardo,el Baix Guinardo,average rent (euro/month),897.7
+2019,4,Horta-Guinardo,Can Baro,average rent (euro/month),755.9
+2019,4,Horta-Guinardo,el Guinardo,average rent (euro/month),843.1
+2019,4,Horta-Guinardo,la Font d'en Fargues,average rent (euro/month),850.9
+2019,4,Horta-Guinardo,el Carmel,average rent (euro/month),700.2
+2019,4,Horta-Guinardo,la Teixonera,average rent (euro/month),747.3
+2019,4,Horta-Guinardo,Sant Genis dels Agudells,average rent (euro/month),740.2
+2019,4,Horta-Guinardo,Montbau,average rent (euro/month),798.5
+2019,4,Horta-Guinardo,la Vall d'Hebron,average rent (euro/month),954.5
+2019,4,Horta-Guinardo,Horta,average rent (euro/month),802.5
+2019,4,Nou Barris,Vilapicina i la Torre Llobeta,average rent (euro/month),801.8
+2019,4,Nou Barris,Porta,average rent (euro/month),756.8
+2019,4,Nou Barris,el Turo de la Peira,average rent (euro/month),710.7
+2019,4,Nou Barris,la Guineueta,average rent (euro/month),783.0
+2019,4,Nou Barris,Canyelles,average rent (euro/month),722.5
+2019,4,Nou Barris,les Roquetes,average rent (euro/month),610.5
+2019,4,Nou Barris,Verdun,average rent (euro/month),668.7
+2019,4,Nou Barris,la Prosperitat,average rent (euro/month),692.5
+2019,4,Nou Barris,la Trinitat Nova,average rent (euro/month),561.4
+2019,4,Nou Barris,Ciutat Meridiana,average rent (euro/month),572.9
+2019,4,Sant Andreu,la Trinitat Vella,average rent (euro/month),622.3
+2019,4,Sant Andreu,el Bon Pastor,average rent (euro/month),713.4
+2019,4,Sant Andreu,Sant Andreu,average rent (euro/month),819.3
+2019,4,Sant Andreu,la Sagrera,average rent (euro/month),829.1
+2019,4,Sant Andreu,el Congres i els Indians,average rent (euro/month),816.7
+2019,4,Sant Andreu,Navas,average rent (euro/month),856.8
+2019,4,Sant Marti,el Camp de l'Arpa del Clot,average rent (euro/month),857.9
+2019,4,Sant Marti,el Clot,average rent (euro/month),871.6
+2019,4,Sant Marti,el Parc i la Llacuna del Poblenou,average rent (euro/month),1072.8
+2019,4,Sant Marti,la Vila Olimpica del Poblenou,average rent (euro/month),1357.8
+2019,4,Sant Marti,el Poblenou,average rent (euro/month),1051.3
+2019,4,Sant Marti,Diagonal Mar i el Front Maritim del Poblenou,average rent (euro/month),1498.6
+2019,4,Sant Marti,el Besos i el Maresme,average rent (euro/month),693.8
+2019,4,Sant Marti,Provencals del Poblenou,average rent (euro/month),1013.6
+2019,4,Sant Marti,Sant Marti de Provencals,average rent (euro/month),835.7
+2019,4,Sant Marti,la Verneda i la Pau,average rent (euro/month),781.0
+2019,4,Ciutat Vella,el Raval,average rent per surface (euro/m2),14.0
+2019,4,Ciutat Vella,Gothic Quarter,average rent per surface (euro/m2),14.3
+2019,4,Ciutat Vella,la Barceloneta,average rent per surface (euro/m2),17.0
+2019,4,Ciutat Vella,"Sant Pere, Santa Caterina i la Ribera",average rent per surface (euro/m2),14.8
+2019,4,Eixample,Fort Pienc,average rent per surface (euro/m2),14.4
+2019,4,Eixample,Sagrada Familia,average rent per surface (euro/m2),14.5
+2019,4,Eixample,la Dreta de l'Eixample,average rent per surface (euro/m2),14.3
+2019,4,Eixample,l'Antiga Esquerra de l'Eixample,average rent per surface (euro/m2),14.8
+2019,4,Eixample,la Nova Esquerra de l'Eixample,average rent per surface (euro/m2),14.9
+2019,4,Eixample,Sant Antoni,average rent per surface (euro/m2),13.8
+2019,4,Sants-Montjuic,el Poble Sec,average rent per surface (euro/m2),14.5
+2019,4,Sants-Montjuic,la Marina del Prat Vermell,average rent per surface (euro/m2),7.1
+2019,4,Sants-Montjuic,la Marina de Port,average rent per surface (euro/m2),11.5
+2019,4,Sants-Montjuic,la Font de la Guatlla,average rent per surface (euro/m2),12.8
+2019,4,Sants-Montjuic,Hostafrancs,average rent per surface (euro/m2),13.9
+2019,4,Sants-Montjuic,la Bordeta,average rent per surface (euro/m2),12.9
+2019,4,Sants-Montjuic,Sants - Badal,average rent per surface (euro/m2),13.8
+2019,4,Sants-Montjuic,Sants,average rent per surface (euro/m2),13.9
+2019,4,Les Corts,les Corts,average rent per surface (euro/m2),15.4
+2019,4,Les Corts,la Maternitat i Sant Ramon,average rent per surface (euro/m2),15.0
+2019,4,Les Corts,Pedralbes,average rent per surface (euro/m2),15.5
+2019,4,Sarria-Sant Gervasi,"Vallvidrera, el Tibidabo i les Planes",average rent per surface (euro/m2),14.2
+2019,4,Sarria-Sant Gervasi,Sarria,average rent per surface (euro/m2),17.0
+2019,4,Sarria-Sant Gervasi,les Tres Torres,average rent per surface (euro/m2),17.4
+2019,4,Sarria-Sant Gervasi,Sant Gervasi - la Bonanova,average rent per surface (euro/m2),16.4
+2019,4,Sarria-Sant Gervasi,Sant Gervasi - Galvany,average rent per surface (euro/m2),15.2
+2019,4,Sarria-Sant Gervasi,el Putxet i el Farro,average rent per surface (euro/m2),15.1
+2019,4,Gracia,Vallcarca i els Penitents,average rent per surface (euro/m2),14.2
+2019,4,Gracia,el Coll,average rent per surface (euro/m2),13.2
+2019,4,Gracia,la Salut,average rent per surface (euro/m2),13.2
+2019,4,Gracia,la Vila de Gracia,average rent per surface (euro/m2),14.8
+2019,4,Gracia,el Camp d'en Grassot i Gracia Nova,average rent per surface (euro/m2),14.9
+2019,4,Horta-Guinardo,el Baix Guinardo,average rent per surface (euro/m2),13.8
+2019,4,Horta-Guinardo,Can Baro,average rent per surface (euro/m2),13.5
+2019,4,Horta-Guinardo,el Guinardo,average rent per surface (euro/m2),13.4
+2019,4,Horta-Guinardo,la Font d'en Fargues,average rent per surface (euro/m2),13.2
+2019,4,Horta-Guinardo,el Carmel,average rent per surface (euro/m2),12.2
+2019,4,Horta-Guinardo,la Teixonera,average rent per surface (euro/m2),12.8
+2019,4,Horta-Guinardo,Sant Genis dels Agudells,average rent per surface (euro/m2),11.6
+2019,4,Horta-Guinardo,Montbau,average rent per surface (euro/m2),12.2
+2019,4,Horta-Guinardo,la Vall d'Hebron,average rent per surface (euro/m2),13.9
+2019,4,Horta-Guinardo,Horta,average rent per surface (euro/m2),12.8
+2019,4,Nou Barris,Vilapicina i la Torre Llobeta,average rent per surface (euro/m2),12.4
+2019,4,Nou Barris,Porta,average rent per surface (euro/m2),12.7
+2019,4,Nou Barris,el Turo de la Peira,average rent per surface (euro/m2),11.7
+2019,4,Nou Barris,la Guineueta,average rent per surface (euro/m2),11.5
+2019,4,Nou Barris,Canyelles,average rent per surface (euro/m2),9.5
+2019,4,Nou Barris,les Roquetes,average rent per surface (euro/m2),10.9
+2019,4,Nou Barris,Verdun,average rent per surface (euro/m2),13.0
+2019,4,Nou Barris,la Prosperitat,average rent per surface (euro/m2),11.9
+2019,4,Nou Barris,la Trinitat Nova,average rent per surface (euro/m2),11.5
+2019,4,Nou Barris,Ciutat Meridiana,average rent per surface (euro/m2),10.0
+2019,4,Sant Andreu,la Trinitat Vella,average rent per surface (euro/m2),10.8
+2019,4,Sant Andreu,el Bon Pastor,average rent per surface (euro/m2),10.7
+2019,4,Sant Andreu,Sant Andreu,average rent per surface (euro/m2),12.6
+2019,4,Sant Andreu,la Sagrera,average rent per surface (euro/m2),12.5
+2019,4,Sant Andreu,el Congres i els Indians,average rent per surface (euro/m2),12.3
+2019,4,Sant Andreu,Navas,average rent per surface (euro/m2),12.9
+2019,4,Sant Marti,el Camp de l'Arpa del Clot,average rent per surface (euro/m2),13.9
+2019,4,Sant Marti,el Clot,average rent per surface (euro/m2),13.3
+2019,4,Sant Marti,el Parc i la Llacuna del Poblenou,average rent per surface (euro/m2),15.5
+2019,4,Sant Marti,la Vila Olimpica del Poblenou,average rent per surface (euro/m2),17.7
+2019,4,Sant Marti,el Poblenou,average rent per surface (euro/m2),15.9
+2019,4,Sant Marti,Diagonal Mar i el Front Maritim del Poblenou,average rent per surface (euro/m2),18.5
+2019,4,Sant Marti,el Besos i el Maresme,average rent per surface (euro/m2),10.8
+2019,4,Sant Marti,Provencals del Poblenou,average rent per surface (euro/m2),14.5
+2019,4,Sant Marti,Sant Marti de Provencals,average rent per surface (euro/m2),12.0
+2019,4,Sant Marti,la Verneda i la Pau,average rent per surface (euro/m2),11.4
