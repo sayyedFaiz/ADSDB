@@ -17,9 +17,7 @@ def main():
         'featureGeneration/featureGeneration/featuregeneration.py',
         'featureGeneration/dataPreparation/datapreparation.py',
         'featureGeneration/datalabelling/labeling.py',
-        'trainingAndValidation/trainingAndTesting/machine_learning.py',
-        # 'advanceTopic/featureSelection/pca.py',
-        # 'advanceTopic/featureSelection/machine_learning.py',
+        'trainingAndValidation/trainingAndTesting/machine_learning.py'
     ]
 
     for script in scripts_to_run:
